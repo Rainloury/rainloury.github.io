@@ -32,6 +32,10 @@ hasCJKLanguage = true
   url = "/posts/"
   weight = 2
 [[menu.main]]
+  name = "网络"
+  url = "/network/"
+  weight = 3
+[[menu.main]]
   name = "关于"
   url = "/about/"
-  weight = 3
+  weight = 4

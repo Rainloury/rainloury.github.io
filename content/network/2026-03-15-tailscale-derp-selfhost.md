@@ -1,7 +1,7 @@
 ---
 title: "自建 Tailscale DERP 中继：国内网络下把打洞变成可控"
 date: 2026-03-15
-tags: ["Tailscale", "DERP", "内网穿透", "VPS"]
+tags: ["Tailscale", "DERP", "内网穿透", "VPS", "远程访问"]
 location: 武汉
 ---
 

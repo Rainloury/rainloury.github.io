@@ -1,7 +1,7 @@
 ---
 title: "NPM + Authelia：给公网服务加 TOTP 二步验证与 DNS-01 证书"
 date: 2026-04-20
-tags: ["NPM", "Authelia", "HTTPS", "2FA", "公网访问"]
+tags: ["NPM", "Authelia", "HTTPS", "2FA", "公网访问", "反向代理"]
 location: 武汉
 ---
 

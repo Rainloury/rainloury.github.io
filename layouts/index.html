@@ -8,10 +8,13 @@
 <section class="posts">
   <div class="section-bar">
     <h2>最新文章</h2>
-    <a class="more" href="{{ "posts/" | relURL }}">全部 &rarr;</a>
+    <span class="more">
+      <a href="{{ "posts/" | relURL }}">NAS 文章 &rarr;</a>
+      <a href="{{ "network/" | relURL }}">网络 &rarr;</a>
+    </span>
   </div>
   <div class="post-grid">
-    {{ range first 6 (where .Site.RegularPages "Section" "posts") }}
+    {{ range first 6 .Site.RegularPages.ByDate.Reverse }}
       {{ partial "post-card.html" . }}
     {{ end }}
   </div>

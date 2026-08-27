@@ -6,11 +6,10 @@ title: 关于
 
 这个站是我个人的博客，内容按「篇章」组织，每个篇章是一个独立的主题领域。
 
-目前写得最多的是 **NAS / 家庭 IT 自建** 这一篇，下面又分三块：
+目前已经开了两个篇章：
 
-- **NAS 运维**：维护栈（Portainer / Netdata / Scrutiny / Uptime Kuma / Watchtower / NPM / Homepage）、业务栈（Jellyfin / qBittorrent / Alist / MoviePilot）、工具栈（Vaultwarden / File Browser / Apprise 推送）怎么搭、怎么互不打架。
-- **网络与穿透**：运营商封 80/443 之下的公网 HTTPS（非标端口 + AliDNS DNS-01）、Tailscale 自建 DERP 中继、RustDesk 远程。
-- **踩坑与决策**：为什么 4GB 内存不够、哪些容器该自动更新、哪些必须手动——都是真金白银换来的经验。
+- **NAS / 家庭 IT 自建**：维护栈（Portainer / Netdata / Scrutiny / Uptime Kuma / Watchtower / NPM / Homepage）、业务栈（Jellyfin / qBittorrent / Alist / MoviePilot）、工具栈（Vaultwarden / File Browser / Apprise 推送）怎么搭、怎么互不打架；以及 4GB 内存够不够、哪些容器该自动更新——都是真金白银换来的经验。
+- **网络**：远程访问自己的设备（Tailscale 自建 DERP、RustDesk）、家庭网络排障（光猫桥接、IPv6 DHCP-PD）、反向代理与 HTTPS（NPM + Authelia、DNS-01 证书）。
 
 其他篇章（投资、创作之类）会陆续开，看精力。
 

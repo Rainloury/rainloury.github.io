@@ -42,7 +42,8 @@ hugo --minify
 ├── content/
 │   ├── _index.md          # 首页 hero 文案
 │   ├── about.md           # 关于页
-│   └── posts/             # 文章（新增文章丢这里）
+│   ├── posts/             # 篇章一：NAS / 家庭 IT 自建
+│   └── network/           # 篇章二：网络（远程访问 / 家庭网络排障 / 反向代理）
 ├── layouts/               # 自写主题（baseof/index/single/list + partials）
 ├── static/
 │   └── css/style.css      # 自适应浅色/深色样式
@@ -52,10 +53,15 @@ hugo --minify
 ## 写一篇新文章
 
 ```bash
+# NAS / 家庭 IT 自建 篇章
 hugo new posts/2026-05-01-my-topic.md
+
+# 网络 篇章（远程访问 / 家庭网络排障 / 反向代理，用对应标签区分）
+hugo new network/2026-05-01-my-topic.md
 ```
 
-生成的文件在 `content/posts/`，填好 front matter（`title` / `date` / `tags` / `draft`）和正文即可。
+生成的文件在对应目录下，填好 front matter（`title` / `date` / `tags` / `draft`）和正文即可。
+网络篇章里的文章建议带上分组标签：`远程访问` / `家庭网络排障` / `反向代理`，便于在篇章页归类。
 草稿设 `draft: true` 时，线上用 `hugo server -D` 才看得到；正式发布改 `false` 再 push。
 
 ## 绑定自定义域名（可选）
