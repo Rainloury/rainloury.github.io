@@ -1,0 +1,8 @@
+<article class="post-card">
+  <a class="card-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  <p class="card-meta">
+    {{ .Date.Format "2006-01-02" }} &middot; {{ .ReadingTime }} 分钟阅读
+    {{ with .Params.tags }}&middot; {{ delimit . " / " }}{{ end }}
+  </p>
+  {{ with .Summary }}<p class="card-excerpt">{{ . }}</p>{{ end }}
+</article>

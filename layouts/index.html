@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section class="hero">
+  <h1 class="hero-title">{{ .Site.Title }}</h1>
+  <p class="hero-sub">{{ .Site.Params.description }}</p>
+  <div class="hero-content">{{ .Content }}</div>
+</section>
+
+<section class="posts">
+  <div class="section-bar">
+    <h2>最新文章</h2>
+    <a class="more" href="{{ "posts/" | relURL }}">全部 &rarr;</a>
+  </div>
+  <div class="post-grid">
+    {{ range first 6 (where .Site.RegularPages "Section" "posts") }}
+      {{ partial "post-card.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

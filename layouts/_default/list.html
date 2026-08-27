@@ -1,0 +1,11 @@
+{{ define "main" }}
+<header class="section-head">
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="section-desc">{{ . }}</div>{{ end }}
+</header>
+<div class="post-grid">
+  {{ range .Pages.ByDate.Reverse }}
+    {{ partial "post-card.html" . }}
+  {{ end }}
+</div>
+{{ end }}

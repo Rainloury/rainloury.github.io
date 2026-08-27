@@ -1,0 +1,37 @@
+baseURL = "/"
+languageCode = "zh-CN"
+title = "Rainstone · 折腾手记"
+description = "家庭 NAS、Docker 自托管与内网穿透的折腾记录"
+hasCJKLanguage = true
+
+# 本工程不依赖任何外部主题，所有模板都在仓库 layouts/ 内，开箱即构建
+# 语法高亮用 Chroma 内联样式，无需额外 css
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    noClasses = true
+    lineNos = false
+    guessSyntax = true
+
+[params]
+  author = "Rainloury"
+  github = "rainloury"
+  description = "家庭 NAS、Docker 自托管与内网穿透的折腾记录"
+  [params.social]
+    github = "https://github.com/rainloury"
+    email = "mailto:rainloury@gmail.com"
+
+# 顶部导航
+[[menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  name = "文章"
+  url = "/posts/"
+  weight = 2
+[[menu.main]]
+  name = "关于"
+  url = "/about/"
+  weight = 3
