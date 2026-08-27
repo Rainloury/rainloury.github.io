@@ -43,7 +43,8 @@ hugo --minify
 │   ├── _index.md          # 首页 hero 文案
 │   ├── about.md           # 关于页
 │   ├── posts/             # 篇章一：NAS / 家庭 IT 自建
-│   └── network/           # 篇章二：网络（远程访问 / 家庭网络排障 / 反向代理）
+│   ├── network/           # 篇章二：网络（远程访问 / 家庭网络排障 / 反向代理）
+│   └── interview/         # 篇章三：面试（前端面试手册合集，外链到独立仓库）
 ├── layouts/               # 自写主题（baseof/index/single/list + partials）
 ├── static/
 │   └── css/style.css      # 自适应浅色/深色样式
@@ -58,6 +59,9 @@ hugo new posts/2026-05-01-my-topic.md
 
 # 网络 篇章（远程访问 / 家庭网络排障 / 反向代理，用对应标签区分）
 hugo new network/2026-05-01-my-topic.md
+```
+
+> 面试篇章为外链导航：手册内容维护在独立仓库，`content/interview/` 下只放 `_index.md` 作索引，不直接 `hugo new`；手册更新后本页链接保持同步。
 ```
 
 生成的文件在对应目录下，填好 front matter（`title` / `date` / `tags` / `draft`）和正文即可。
