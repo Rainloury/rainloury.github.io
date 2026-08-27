@@ -1,6 +1,6 @@
 # Rainstone · 折腾手记
 
-家庭 NAS / Docker 自托管 / 内网穿透的折腾笔记。基于 **Hugo** 构建，部署到 GitHub Pages 用户站。
+个人技术博客，基于 **Hugo** 构建，部署到 GitHub Pages 用户站。
 
 ## 本地预览
 
@@ -28,7 +28,7 @@ hugo --minify
 2. 把本目录推送到 `master`：
    ```bash
    git add .
-   git commit -m "rebuild: hugo NAS blog"
+   git commit -m "rebuild: hugo blog"
    git push origin master
    ```
 3. Actions 跑完，站点出现在 GitHub Pages 用户站（`https://<你的用户名>.github.io/`）。

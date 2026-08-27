@@ -1,6 +1,6 @@
 ---
 title: "文章"
-description: "NAS / 家庭 IT 自建相关的折腾笔记，按时间倒序"
+description: "全部文章，按时间倒序"
 date: 2026-01-12
 ---
 

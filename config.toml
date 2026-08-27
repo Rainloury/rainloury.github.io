@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "zh-CN"
 title = "Rainstone · 折腾手记"
-description = "家庭 NAS、Docker 自托管与内网穿透的折腾记录"
+description = "Rainloury 的个人博客 —— 记录技术折腾、自建服务与日常思考"
 hasCJKLanguage = true
 
 # 本工程不依赖任何外部主题，所有模板都在仓库 layouts/ 内，开箱即构建
@@ -17,7 +17,7 @@ hasCJKLanguage = true
 [params]
   author = "Rainloury"
   github = "rainloury"
-  description = "家庭 NAS、Docker 自托管与内网穿透的折腾记录"
+  description = "Rainloury 的个人博客 —— 记录技术折腾、自建服务与日常思考"
   [params.social]
     github = "https://github.com/rainloury"
     email = "mailto:rainloury@gmail.com"
